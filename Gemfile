@@ -29,7 +29,8 @@ gem 'redis', '~> 4.0'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'devise'
-gem "omniauth-linkedin-oauth2", '1.0.0'
+gem "omniauth", "~> 1.9.1"
+gem "omniauth-linkedin-oauth2"
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
